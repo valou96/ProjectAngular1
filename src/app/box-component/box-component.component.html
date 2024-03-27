@@ -1,0 +1,11 @@
+<app-textbox-component (cardData)="receiveCardData($event)"></app-textbox-component>
+<br>
+<div class="container" *ngIf="cardInfo"> <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Card</h5>
+    <p>{{ cardInfo.nom }}</p>
+    <p> {{ cardInfo.prenom }}</p>
+    <p> {{ cardInfo.description }}</p>
+  </div>
+</div>
+</div>
